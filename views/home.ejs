@@ -1,0 +1,20 @@
+<%- include("partials/head") %>
+
+<body>
+  <%- include("partials/navbar") %>
+  <h1>Haenuki Sachi <%=number %></h1>
+  <h2></h2>
+  <% if (number > 5) {%>
+  <h2>It is larger than 5</h2>
+  <% } else {%>
+  <h2>IT is less than 5</h2>
+  <% }%>
+  <h3><%= number>5?"BIGGER" : "SMALLER" %></h3>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatibus
+    cum architecto, ullam, delectus totam debitis deleniti soluta id placeat
+    ipsum ut, hic quis aliquid assumenda? Adipisci saepe esse illum.
+  </p>
+</body>
+
+</html>
